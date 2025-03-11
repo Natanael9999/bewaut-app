@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./page.css";
+import "./style.css";
 
 export default function Home() {
   const [status, setStatus] = useState({ torneira: "Desconhecido", chuva: null });
